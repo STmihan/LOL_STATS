@@ -1,0 +1,8 @@
+{
+  "enabledCssSnippets": [
+    "pick_statistics"
+  ],
+  "theme": "obsidian",
+  "accentColor": "#8a7bad",
+  "cssTheme": "Atom"
+}
