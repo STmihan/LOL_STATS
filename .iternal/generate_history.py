@@ -43,7 +43,7 @@ def load_cached_games():
 def generate_markdown(games):
     def champ_icon(name):
         url = f"https://gol.gg/_img/champions_icon/{name.replace(' ', '')}.png"
-        return f'<div align="center"><img src="{url}" width="48"/><span>{name}</span></div>'
+        return f'<div align="center"><img src="{url}" width="48"/><br>{name}</div>'
 
     with open(MD_FILE, "w", encoding="utf-8") as f:
         f.write("---\n")
